@@ -1,8 +1,8 @@
 FROM alpine:3.5
 
-ADD configure.sh /configure.sh
+ADD configure.sh /vmess.sh
 
 RUN apk add --no-cache ca-certificates curl unzip \
- && chmod +x /configure.sh
+ && chmod +x /vmess.sh
 
-CMD /configure.sh
+CMD /vmess.sh
