@@ -1,0 +1,13 @@
+{
+    "name": "Xray",
+    "description": "Deploy Xray VMESS on Heroku.",
+    "keywords": ["Xray"],
+    "env": {
+        "UUID": {
+            "description": "Xray UUID",
+            "value": "xynte"
+        }
+    },
+    "repository": "https://github.com/EdyDevz/vmess-heroku",
+    "stack": "container"
+}
