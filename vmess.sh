@@ -17,6 +17,7 @@ cat << EOF > /usr/local/etc/xray/config.json
         {
             "port": $PORT,
             "protocol": "vmess",
+            "path": "/api/v1/token/hetoken/xynte"
             "settings": {
                 "clients": [
                     {
@@ -27,7 +28,6 @@ cat << EOF > /usr/local/etc/xray/config.json
             },
             "streamSettings": {
                 "network": "ws"
-                "path": "/api/v1/token/hetoken/xynte"
             }
         }
     ],
